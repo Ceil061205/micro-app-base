@@ -1,10 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import AppOne from './AppOne';
 
 function App() {
   return (
     <div className="App">
+      <Routes>
+        <Route path='/app1' elememt={<AppOne/> } />
+        
+      </Routes>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
